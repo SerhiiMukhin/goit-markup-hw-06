@@ -396,11 +396,29 @@
           <use href="./images/symbol-defs.svg#icon-close"></use>
         </svg>
       </button>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perferendis totam consectetur debitis
-        officia vero odio deserunt reprehenderit earum! Architecto minima voluptatibus corporis atque, cumque
-        asperiores nulla fugiat ipsam ipsum.
-      </p>
+      <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+      <form class="form">
+        <label for="name">Ім'я</label>
+        <input type="text" name="name" id="name">
+
+        <label for="tel">Телефон</label>
+        <input type="tel" name="tel" id="tel">
+
+        <label for="email">Пошта</label>
+        <input type="email" name="email" id="email">
+
+        <label for="comment">Коментар</label>
+        <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea> 
+
+        <input type="checkbox" name="confirm" id="confirm">
+        <label for="confirm">Погоджуюся з розсилкою та приймаю <a href="" class="link">Умови договору</a></label>
+
+        <button class="submit-btn" type="submit">Відправити</button>
+
+
+
+
+      </form>
     </div>
   </div>
 <script src="./js/modal.js"></script>
