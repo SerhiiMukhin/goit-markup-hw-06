@@ -520,6 +520,7 @@ p {
   line-height: calc(30/16);
   letter-spacing: 0.06em;
   color: var(--tertiary-text-color);
+  cursor: pointer;
 }
 
 .subscribe .send {
