@@ -1,0 +1,10 @@
+{
+    "prettier.configPath": "‪D:\\GitHub\\settings.json",
+    "prettier.arrowParens": "avoid",
+    "prettier.bracketSameLine": true,
+    "prettier.trailingComma": "all",
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.printWidth": 120,
+    "prettier.proseWrap": "never",
+    "prettier.useTabs": true
+}
